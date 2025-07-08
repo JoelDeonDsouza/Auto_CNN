@@ -137,7 +137,6 @@ def train():
     model = AutoCNN(num_classes=len(train_dataset.classes))
     model.to(device)
 
-
     num_epochs = 100
     criterion = nn.CrossEntropyLoss(label_smoothing=0.1)
     optimizer = optim.AdamW(model.parameters(), lr=0.0005, weight_decay=0.01)
