@@ -83,7 +83,7 @@ Put your WAV files in the `audio-tests/` directory. An example (`chirpingBirds.w
 - `AutoCNN`: Custom CNN model with residual blocks
 - `ESC50Dataset`: PyTorch Dataset class for ESC-50
 - `train.py`: Training loop with augmentation, optimizer, and TensorBoard logging
-- `inference.py`: FastAPI-powered inference endpoint
+- `main.py`: FastAPI-powered inference endpoint
 - `modal`: Manages GPU workloads and deploys endpoints
 
 ## 🔬 Model Architecture
