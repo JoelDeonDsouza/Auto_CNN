@@ -1,29 +1,25 @@
-# Create T3 App
+# 🚀 Auralize CNN
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Auralize CNN lets you upload a WAV audio file and visualize how a trained convolutional neural network (CNN) processes the audio. It displays model predictions alongside detailed visualizations of the input spectrogram, waveform, and internal feature maps, helping you explore how the model interprets sound data.
 
-## What's next? How do I make an app with this?
+## Tech Stack
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+**Client:** Next.js, Tailwind CSS, TypeScript, Shadcn
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Screenshots
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+![App Screenshot](/public/testOne.png)
 
-## Learn More
+![App Screenshot](/public/testTwo.png)
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+![App Screenshot](/public/testThree.png)
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## 📦 Environment Variables (`.env`)
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+```env
 
-## How do I deploy this?
+# Modal (API KEY)
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+NEXT_PUBLIC_MODAL_API=
+
+```
