@@ -8,11 +8,11 @@ Auralize CNN lets you upload a WAV audio file and visualize how a trained convol
 
 ## Screenshots
 
-![App Screenshot](/public/testOne.png)
+![App Screenshot](public/testOne.png)
 
-![App Screenshot](/public/testTwo.png)
+![App Screenshot](public/testTwo.png)
 
-![App Screenshot](/public/testThree.png)
+![App Screenshot](public/testThree.png)
 
 ## 📦 Environment Variables (`.env`)
 
